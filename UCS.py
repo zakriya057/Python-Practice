@@ -36,6 +36,5 @@ def uniformcost(mygraph,start,end,cost):
               f=((vertex[0]+w[i]),add)
               q.put(f)
     return path
-        
-#print(graph)
+       
 print(uniformcost(graph,"S","G",0))
