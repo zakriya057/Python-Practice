@@ -1,4 +1,4 @@
-#main
+# tic tac toe multi player 1 Vs 1
 array=[[' ' for x in range(3)]for y in range(3)]
 class tictactoe():
 	array=[[]]
